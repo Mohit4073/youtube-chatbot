@@ -94,16 +94,16 @@ uvicorn main:app --reload
 ## 📂 Project Structure
 
 youtube-chatbot/
-│
 ├── backend/
-│ ├── main.py # FastAPI entry point
-│ ├── chatbot.py # LangChain logic & Gemini integration
+│   ├── main.py            # FastAPI entry point
+│   ├── chatbot.py         # LangChain logic & Gemini chain
 │
 ├── frontend/
-│ ├── index.html # Chatbot UI
-│ ├── script.js # Frontend logic (fetch, display)
+│   ├── index.html         # Chat UI
+│   ├── script.js          # Frontend logic
 │
-├── chroma_db2/ # Chroma persistent storage for embeddings
-├── requirements.txt # Python dependencies
-├── .env # Environment variables (Google API key)
-└── README.md # Project documentation
+├── chroma_db2/            # Chroma persistent storage
+├── requirements.txt       # Project dependencies
+├── .env                   # Environment variables
+└── README.md              # Project documentation
+
