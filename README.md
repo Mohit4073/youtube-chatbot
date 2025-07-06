@@ -91,5 +91,20 @@ uvicorn main:app --reload
 - **Question:** "Is there discussion about Ajay Devgan in the video?"  
 - **Answer:** "Yes, Ajay Devgan was mentioned in the context of..."
 
-<pre> ## 📂 Project Structure <code> youtube-chatbot/ ├── backend/ │ ├── main.py # FastAPI entry point │ ├── chatbot.py # LangChain logic & Gemini chain │ ├── frontend/ │ ├── index.html # Chat UI │ ├── script.js # Frontend logic │ ├── chroma_db2/ # Chroma persistent storage ├── requirements.txt # Project dependencies ├── .env # Environment variables └── README.md # Project documentation </code> </pre>
+## 📂 Project Structure
 
+<pre><code>
+youtube-chatbot/
+├── backend/
+│   ├── main.py            # FastAPI entry point
+│   ├── chatbot.py         # LangChain logic
+│
+├── frontend/
+│   ├── index.html         # Chat UI
+│   ├── script.js          # Frontend logic
+│
+├── chroma_db2/            # Chroma persistent storage
+├── requirements.txt       # Project dependencies
+├── .env                   # Environment variables
+└── README.md              # Project documentation
+</code></pre>
